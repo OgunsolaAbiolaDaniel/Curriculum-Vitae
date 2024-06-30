@@ -1,0 +1,201 @@
+*,*::before
+*::after{
+    body{box-sizing: border-box;}
+    
+}
+
+body{
+    background-color: #a8a39a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: fit-content;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    width: 50%;
+}
+.firstsec{
+   background-color: #BF6C44;
+   color: #fdf8f5;
+   padding: 5px 0px;
+   width: 40%;
+}
+.secondsec{
+    background-color: white;
+    color: black;
+    padding: 5px 0px;
+    width: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.subhead{
+    font-size: 18px;
+    font-weight: 600;
+     font-family: 'Red Hat Display', sans-serif;
+}
+.wrap{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.firstsec > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin: 80px 0px;
+}
+.imgdiv{
+    width: fit-content;
+    padding: 2px;
+}
+.img{
+   border-style: none;
+    width:200px;
+  height:200px;
+   border-radius: 100%;
+   object-fit: cover;
+   border-style: solid;
+   border-width: 10px;
+   border-color: #fdf8f5;
+}
+.name{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22px;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inspan{
+  font-size: 18px;
+}
+.bio{
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.inpr{
+  font-size: 14px;
+}
+.contact{
+    margin-top: 20px;
+    padding-bottom: 25%;
+    padding-top: 3%;
+}
+a{
+    color:#fdf8f5 ;
+    text-decoration: none;
+}
+a:hover{
+    color:#a8a39a;
+}
+.secondsec >div{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 25px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.experience div{
+    margin-bottom: 2px;
+    font-family:'Red Hat Display', sans-serif; 
+    font-weight: 600;
+}
+.job{
+    display: flex;
+    font-weight: 400;
+    flex-direction: column;
+}
+.job > p{
+    font-size: 16px;
+     color: #222222;
+     font-weight:500;
+     margin:0;
+}
+.job  div{
+font-weight: 400;
+}
+.desc{
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    list-style: outside;
+    padding: 0px 10px;
+    line-height: 1.5;
+    flex-direction: column;
+    gap: 2px;
+}
+.jobfirst{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.jobsecond{
+     display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+hr{
+    border-style: none;
+    width: 70%;
+    color:#000;
+    border-top-style: solid;
+    margin-left: 0%;
+}
+  .skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+  .skills  div{
+      margin-bottom: 2px;
+    font-family:'Red Hat Display', sans-serif; 
+    font-weight: 600;
+    width: 100%;
+  }
+  .skills div ul{
+       font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    list-style: outside;
+    padding: 0px 10px;
+    margin: 0;
+    line-height: 1.5;
+    flex-direction: column;
+    gap: 2px;
+
+  }
+
+   .list{
+    padding: 5%;
+    padding-top: 0%;
+    text-align: left;
+    padding-bottom: 5%;
+    font-size: 11.1pt;
+    color: #222;
+  }
